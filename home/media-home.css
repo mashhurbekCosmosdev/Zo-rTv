@@ -17,6 +17,9 @@
     .src li:first-child a{
         font-size: 1.5vw;
     }
+    .buttons_container{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 1000px){
