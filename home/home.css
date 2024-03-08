@@ -35,14 +35,19 @@ header nav{
     gap: 15px;
     color: white;
 }
-.nav_bar .icons li {
-    height: 70px ;
-    width: 70px;
+.nav_bar .icons li i{
+    height: 60px ;
+    width: 60px;
     border: 1px solid white;
     justify-content: center;
     align-items: center;
     display: flex;
     border-radius: 100%;
+    transition: all .2s linear;
+}
+.nav_bar .icons li :hover i{
+    color: #C7B24C;
+    background-color: white;
 }
 .nav_bar .icons li i{
     font-size: 1.5vw;
@@ -55,4 +60,16 @@ header nav{
     padding: 25px 40px;
     border: 10px solid white;
     background-color: #212529;
+}
+.src li:first-child a{
+    color: #C7B24C;
+    font-size: 25px;
+    font-weight: 1000;
+    padding: 10px 13px;
+    background-color: white;
+    border-radius: 100%;
+}
+.src li:last-child a{
+    color: white;
+    font-size: 30px;
 }
