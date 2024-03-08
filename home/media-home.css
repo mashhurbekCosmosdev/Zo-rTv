@@ -1,0 +1,20 @@
+@media screen and (max-width: 1700px){
+    .nav_bar img{
+        right: 35%;
+        padding: 1vw 2vw;
+    }
+    .nav_bar .icons li i{
+        font-size: 1.5vw;
+        height: 3vw;
+        width: 3vw;
+    }
+    .nav_bar h1{
+        font-size: 1vw;
+    }
+    .container{
+        width: 90%;
+    }
+    .src li:first-child a{
+        font-size: 1.5vw;
+    }
+}
