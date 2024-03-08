@@ -1,0 +1,63 @@
+@media screen and (max-width: 1700px){
+    .nav_bar img{
+        right: 35%;
+        padding: 1vw 2vw;
+    }
+    .nav_bar .icons li i{
+        font-size: 1.5vw;
+        height: 3vw;
+        width: 3vw;
+    }
+    .nav_bar h1{
+        font-size: 1vw;
+    }
+    .container{
+        width: 90%;
+    }
+    .src li:first-child a{
+        font-size: 1.5vw;
+    }
+}
+@media (max-width:900px) {
+    .nav_bar img{
+        display: none;
+    }
+    .page{
+        flex-wrap: wrap;
+    }
+    .page hr{
+        display: none;
+    }
+    .renesens h1{
+        font-size: 40px;
+    }
+    .renesens p{
+        font-size: 10px;
+    }
+    .niqob{
+        margin-top: 100px;
+    }
+    .yangilik{
+        flex-wrap: wrap;
+    }
+    .yangilik-box1{
+        width: 100%;
+        font-size: 10px;
+    }
+    .yangilik-box2{
+        width: 100%;
+    }
+    .yangilik-box3{
+        width: 100%;
+    }
+    .icon{
+        flex-wrap: wrap;
+    }
+    .icon i{
+        font-size: 40px;
+    }
+    footer{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
