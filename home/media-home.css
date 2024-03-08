@@ -18,3 +18,28 @@
         font-size: 1.5vw;
     }
 }
+
+@media screen and (max-width: 1000px){
+    .nav_bar img{
+        position: sticky;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        width: 15vw;
+        filter: brightness(100);
+    }
+    .links{
+        padding: 10px;
+    }
+    .nav_bar h1{
+        font-size: 2vw;
+    }
+    .nav_bar .icons li i{
+        font-size: 2vw;
+        height: 5vw;
+        width: 5vw;
+    }
+    .src li:first-child a{
+        font-size: 2vw;
+    }
+}
