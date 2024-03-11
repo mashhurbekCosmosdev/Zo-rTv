@@ -20,8 +20,6 @@ function changeImg(){
 
 
 
-
-
 rightBtn.addEventListener("click", function(){
     index++
     changeImg()

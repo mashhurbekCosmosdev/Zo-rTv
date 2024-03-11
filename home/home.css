@@ -82,8 +82,11 @@ header nav{
     font-size: 1.5vw;
     padding-right: 4vw;
     border-right: 3px solid rgb(109, 255, 47);
-    font-weight: 900    ;
+    font-weight: 900;
 }
 .links :last-child a{
     border-right: none;
+}
+.links li:hover a{
+    text-decoration: underline;
 }
