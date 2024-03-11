@@ -65,7 +65,7 @@ header nav{
     background-color: white;
     border-radius: 100%;
 }
-.src li:last-child a{
+.src li:nth-child(2) a{
     color: white;
     font-size: 2vw;
 }
@@ -89,4 +89,106 @@ header nav{
 }
 .links li:hover a{
     text-decoration: underline;
+}
+section.container{
+    width: 80vw;
+    display: flex;
+    overflow: hidden;
+    height: 70vh;
+    padding: 5vh 0px;
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    transition: transform .5s linear;
+}
+.img-container .box{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-container .box img{
+    height: 80%;
+}
+.buttons-container{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    justify-content: space-between;
+    transform: translateY(20vh);
+}
+.buttons-container button{
+    height: 100%;
+    transform: rotate(45deg);
+    border: 2px double #C7B24C;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    width: 30px;
+}
+.buttons-container button i{
+    transform: rotate(-45deg);
+    color: #C7B24C;
+}
+.slider-txt{
+    width: 60%;
+}
+.slider-txt h2{
+    font-size: 6vw;
+    line-height: .9;
+    color: rgb(71, 219, 42);
+}
+.slider-txt p{
+    color: white;
+}
+#menu{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #212529;
+    z-index: 1;
+    display: none;
+}
+.menu-link a{
+    color: white;
+}
+.menu-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+.menu-link ul{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+#menu-span{
+    height: 17px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+#menu-span span:first-child{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+#menu-span span:last-child{
+    height: 2px;
+    width: 90%;
+    background-color: white;
+}
+#menu-span span:nth-child(2){
+    height: 2px;
+    width: 70%;
+    background-color: white;
 }

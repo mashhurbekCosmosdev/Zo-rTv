@@ -20,6 +20,12 @@
     .buttons_container{
         width: 90%;
     }
+    section.container{
+        width: 90%;
+    }
+    .buttons-container{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -44,5 +50,25 @@
     }
     .src li:first-child a{
         font-size: 2vw;
+    }
+    .img-container .box{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .slider-txt{
+        width: 100%;
+    }
+    .slider-txt h2{
+        font-size: 8vw;
+    }
+}
+@media screen and (max-width: 700px){
+    .nav_bar h1{
+        display: none;
+    }
+    .nav_bar .icons{
+        display: none;
     }
 }
