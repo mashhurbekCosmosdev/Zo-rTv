@@ -1,3 +1,8 @@
+:root{
+    --section-bg: #211f34;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -148,7 +153,7 @@ section.container{
     position: absolute;
     height: 90vh;
     width: 100%;
-    background-color: #212529;
+    background-color: #161525;
     z-index: 1;
     transform: scale(0, 1);
     transition: all .5s linear;
@@ -196,7 +201,7 @@ section.container{
     height: 2px;
     width: 70%;
     background-color: white;
-    transition: transform .2s linear;
+    transition: all .2s linear;
 }
 body.active #menu-span span:first-child{
     transform: rotate(45deg) translateX(12px);
@@ -205,5 +210,61 @@ body.active #menu-span span:last-child{
     transform: rotate(-45deg) translateX(11px);
 }
 body.active #menu-span span:nth-child(2){
-    width: 0;
+    width: 0px;
+}
+.title {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2vw;
+    color: #C7B24C;
+    font-weight: 800;
+}
+
+#news{
+    background-color: var(--section-bg);
+}
+.news-boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+.news-box{
+    background-color: #212529;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news-box img{
+    width: 100%;
+    filter: grayscale(1);
+}
+.news-box:hover img{
+    filter: grayscale(0);
+}
+.news-box div{
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 197, 33);
+    font-size: 1.5vw;
+    font-weight: 900;
+    color: aliceblue;
+}
+.stars{
+    position: absolute;
+    transform: translateY(44vw);
+}
+.news-box .stars{
+    width: 19vw;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: none;
+}
+.stars i{
+    color: gold;
 }
