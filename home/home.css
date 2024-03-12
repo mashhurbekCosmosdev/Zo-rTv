@@ -146,11 +146,13 @@ section.container{
 }
 #menu{
     position: absolute;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-color: #212529;
     z-index: 1;
-    display: none;
+    transform: scale(0, 1);
+    transition: all .5s linear;
+    transform-origin: top right;
 }
 .menu-link a{
     color: white;
@@ -176,19 +178,32 @@ section.container{
     flex-direction: column;
     justify-content: space-between;
     align-items: end;
+    display: none;
 }
 #menu-span span:first-child{
     height: 2px;
     width: 100%;
     background-color: white;
+    transition: transform .2s linear;
 }
 #menu-span span:last-child{
     height: 2px;
     width: 90%;
     background-color: white;
+    transition: transform .2s linear;
 }
 #menu-span span:nth-child(2){
     height: 2px;
     width: 70%;
     background-color: white;
+    transition: transform .2s linear;
+}
+body.active #menu-span span:first-child{
+    transform: rotate(45deg) translateX(12px);
+}
+body.active #menu-span span:last-child{
+    transform: rotate(-45deg) translateX(11px);
+}
+body.active #menu-span span:nth-child(2){
+    width: 0;
 }
