@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="media-home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="shortcut icon" href="./home-img/logo.png" type="image/x-icon">
 </head>
 <body>
         <header>
@@ -27,10 +27,30 @@
                         <ul class="src">
                             <li><a href="#">UZ</a></li>
                             <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <div id="menu-span">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <div id="menu">
+                <ul class="menu-link">
+                    <li><a href="#">Dasturlar</a></li>
+                    <li><a href="#">Yangiliklar</a></li>
+                    <li><a href="#">Biz haqimizda</a></li>
+                    <li><a href="../renesans/renesans.html">Renesans hall</a></li>
+                    <li><a href="#">Aloqa</a></li>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                    </ul>
+                </ul>
+            </div>
             <div class="container">
                 <ul class="links">
                     <li><a href="#">Dasturlar</a></li>
@@ -39,32 +59,94 @@
                     <li><a href="../renesans/renesans.html">Renesans hall</a></li>
                     <li><a href="#">Aloqa</a></li>
                 </ul>
-                <div class="header_title">
 
-                </div>
             </div>
         </header>
         <main>
-
-                <div class="slider-container">
-                    <div class="img-container">
-                        <div id="box">
-                            <img src="./home-img/carousel_1.png" alt="">
-                            <h1>SEVGI IZTIROBI</h1>
+            <section class="container">
+                <div class="img-container" id="imgs">
+                    <div class="box" style="width: 1000px;">
+                        <img src="./home-img/carousel_1.png" alt="">
+                        <div class="slider-txt">
+                            <h2>SEVGI IZTIROBI</h2>
                             <p>Shanba va yakshanba “ZO’R TV” telekanalida "SEVGI IZTIROBI" serialini soat 20:20 da o'tkazib yubormang!</p>
                         </div>
-                        <div id="box">
-                            <img src="./home-img/carousel_2.png" alt="">
-                            <h1>SEVGI IZTIROBI</h1>
+                    </div>
+                    <div class="box">
+                        <img src="./home-img/carousel_2.png" alt="">
+                        <div class="slider-txt">
+                            <h2>SEVGI IZTIROBI</h2>
                             <p>Shanba va yakshanba “ZO’R TV” telekanalida "SEVGI IZTIROBI" serialini soat 20:20 da o'tkazib yubormang!</p>
                         </div>
-                        <div id="box">
-                            <img src="./home-img/carousel_3.png" alt="">
-                            <h1>SEVGI IZTIROBI</h1>
+                    </div>
+                    <div class="box">
+                        <img src="./home-img/carousel_3.png" alt="">
+                        <div class="slider-txt">
+                            <h2>SEVGI IZTIROBI</h2>
                             <p>Shanba va yakshanba “ZO’R TV” telekanalida "SEVGI IZTIROBI" serialini soat 20:20 da o'tkazib yubormang!</p>
                         </div>
                     </div>
                 </div>
+                <div class="buttons-container">
+                    <button id="left"><i class="fa-solid fa-angle-left"></i></button>
+                    <button id="right"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </section>
+            <section id="news">
+                <div class="container">
+                    <div class="title">
+                        <h1>YANGILIKLAR </h1>
+                        <br><br><br>
+                        <h1>ГОЛОСОВАНИЕ</h1>
+                    </div>
+                    <div class="news-boxes">
+                        <div class="news-box">
+                            <div>BU KUN</div>
+                            <img src="./home-img/news-img1.png" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="news-box">
+                            <div>BU KUN</div>
+                            <img src="./home-img/news-img2.png" alt="">
+                                                        <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="news-box">
+                            <div>BU KUN</div>
+                            <img src="./home-img/news-img3.png" alt="">
+                                                        <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="news-box">
+                            <div>BU KUN</div>
+                            <img src="./home-img/news-img4.png" alt="">
+                                                        <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
 
